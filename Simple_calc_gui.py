@@ -60,7 +60,7 @@ def clear():
 	equation.set("0") 
 
 
-# Driver code 
+# Main code 
 if __name__ == "__main__": 
 	# create a GUI window 
 	gui = Tk() 
@@ -153,7 +153,7 @@ if __name__ == "__main__":
 					command=lambda: press("%"), height=2, width=9) 
 	modulus.grid(row=6, column=3)
 
-	pow = Button(gui, text=' sqrt ', fg='black', bg='light green', 
+	pow = Button(gui, text=' sqr ', fg='black', bg='light green', 
 					command=lambda: press("**"), height=2, width=9) 
 	pow.grid(row=6, column=0)
 
