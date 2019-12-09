@@ -1,2 +1,2 @@
 # Simple-Calulator
-# Mini Project
+# Project
